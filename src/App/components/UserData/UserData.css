@@ -1,0 +1,14 @@
+.userDataContainer {
+    padding-top: 100px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* Add transition effect */
+  }
+  
+  .userDataContainer.active {
+    opacity: 1;
+    
+  }
+  
+  /*   New CSS from this line onwards */
+
+  

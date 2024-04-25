@@ -1,0 +1,30 @@
+.pnc-container {
+  position: relative; 
+  width: 28vw;
+  height: 74vh;
+  margin-top: 90px;
+  margin-left: 250px
+}
+
+.containerr {
+    position: relative; /* Make the container position relative */
+    width: 100vw; /* Set the width to full viewport width */
+    height: 100vh; /* Set the height to full viewport height */
+    overflow: hidden; /* Hide any overflow content */
+    margin-left: "60px";
+    margin-top: "20px",
+  }
+  
+  .pnc-container::before {
+    content: ""; /* Add a pseudo-element to act as the background */
+    position: fixed; /* Position the background image fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./pnc_back.png"); /* Set the background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    z-index: -1; /* Set z-index to place it behind other content */
+  }
+  

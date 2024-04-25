@@ -1,0 +1,31 @@
+.pin-entry {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 100px;
+  }
+  
+  .pin-entry-title {
+    margin-bottom: 20px;
+  }
+  
+  .pin-input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .pin-input {
+    width: 30px;
+    text-align: center;
+    margin: 0 5px;
+  }
+  
+  .pin-error {
+    margin-bottom: 10px;
+  }
+  
+  .pin-submit {
+    margin: 0 auto;
+    display: block;
+  }
+  
